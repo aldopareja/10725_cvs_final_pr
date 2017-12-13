@@ -18,8 +18,6 @@ for n = 1: numberOfFolders
         subsubdirpath = [subdirpath '\' thissubsubdir];  
         files = dir([subsubdirpath '\alpha*.csv']);
         max_idx = 0;
-        n_tracks = 5;
-        Simil = -1000*ones(n_tracks);
         for file = files'
             M = csvread(strcat(subsubdirpath,'\',file.name));
             y1 = M(2:3,2:end);
@@ -63,8 +61,13 @@ for n = 1: numberOfFolders
             Simil_x = (sum(Sxi > sigma) + sum(Sxj > sigma))/(sum(Sxij > sigma)) - 0.99;
             Simil_y = (sum(Syi > sigma) + sum(Syj > sigma))/(sum(Syij > sigma)) - 0.99;
             Simil(idx_1+1,idx_2+1) = Simil_x + Simil_y;
+            SimilT_x = (rank(Hanki(:,:,1)) + rank(Hankj(:,:,1)))/(rank(Hankij(:,:,1))) - 0.99;
+            SimilT_y = (rank(Hanki(:,:,2)) + rank(Hankj(:,:,2)))/(rank(Hankij(:,:,2))) - 0.99;
+            SimilT(idx_1+1,idx_2+1) = SimilT_x + SimilT_y;
         end
+        Simil(Simil == 0) = -1000;
+        SimilT(SimilT == 0) = -1000;
         csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
-
+        csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
     end
 end
