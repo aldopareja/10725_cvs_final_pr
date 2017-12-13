@@ -60,3 +60,158 @@ Solution count 2: 298.347 144.451
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.983468019306e+02, best bound 2.983468019306e+02, gap 0.0000%
+
+Gurobi 7.5.1 (linux64, Python) logging started Wed Dec 13 00:25:19 2017
+
+Academic license - for non-commercial use only
+Optimize a model with 600 rows, 90000 columns and 180000 nonzeros
+Variable types: 0 continuous, 90000 integer (90000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-05, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 142.287
+Presolve time: 0.27s
+Presolved: 600 rows, 90000 columns, 180000 nonzeros
+Variable types: 0 continuous, 90000 integer (90000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.9902191e+02      0s
+
+Sifting complete
+
+
+Root relaxation: objective 2.983457e+02, 618 iterations, 0.06 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     298.3457077  298.34571  0.00%     -    0s
+
+Explored 0 nodes (618 simplex iterations) in 0.60 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 298.346 142.287 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.983457077335e+02, best bound 2.983457077335e+02, gap 0.0000%
+Optimize a model with 600 rows, 90000 columns and 180000 nonzeros
+Variable types: 0 continuous, 90000 integer (90000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-06, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 148.821
+Presolve time: 0.25s
+Presolved: 600 rows, 90000 columns, 180000 nonzeros
+Variable types: 0 continuous, 90000 integer (90000 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity     -2.9909551e+02      0s
+
+Sifting complete
+
+
+Root relaxation: objective 2.984676e+02, 641 iterations, 0.06 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     298.4675617  298.46756  0.00%     -    0s
+
+Explored 0 nodes (641 simplex iterations) in 0.54 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 298.468 148.821 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.984675616993e+02, best bound 2.984675616993e+02, gap 0.0000%
+Optimize a model with 10 rows, 25 columns and 50 nonzeros
+Variable types: 0 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-01, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.1071
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.1071 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.071000000000e-01, best bound 1.071000000000e-01, gap 0.0000%
+Optimize a model with 10 rows, 25 columns and 50 nonzeros
+Variable types: 0 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 3.0839
+Presolve removed 10 rows and 25 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 3.0839 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.083900000000e+00, best bound 3.083900000000e+00, gap 0.0000%
+Optimize a model with 10 rows, 25 columns and 50 nonzeros
+Variable types: 0 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.02
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.02 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e-02, best bound 2.000000000000e-02, gap 0.0000%
+Optimize a model with 10 rows, 25 columns and 50 nonzeros
+Variable types: 0 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.02
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.02 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e-02, best bound 2.000000000000e-02, gap 0.0000%
+Optimize a model with 10 rows, 25 columns and 50 nonzeros
+Variable types: 0 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.02
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.02 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e-02, best bound 2.000000000000e-02, gap 0.0000%

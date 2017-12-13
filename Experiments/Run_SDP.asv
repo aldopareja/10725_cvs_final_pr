@@ -1,0 +1,68 @@
+clear all
+sigma = 5;
+subdirs = dir(pwd);
+subdirs(~[subdirs.isdir]) = [];
+tf = ismember( {subdirs.name}, {'.', '..'});
+subdirs(tf) = [];
+numberOfFolders = length(subdirs);
+for n = 1: numberOfFolders
+    thissubdir = subdirs(n).name;
+    subdirpath = [pwd '\' thissubdir];   
+    subsubdirs = dir(subdirpath);
+    subsubdirs(~[subsubdirs.isdir]) = [];
+    tf = ismember( {subsubdirs.name}, {'.', '..'});
+    subsubdirs(tf) = [];
+    numberOfSubFolders = length(subsubdirs);
+    for m = 1: numberOfSubFolders
+        thissubsubdir = subsubdirs(m).name;
+        subsubdirpath = [subdirpath '\' thissubsubdir];  
+        files = dir([subsubdirpath '\*.csv']);
+        max_idx = 0;
+        n_tracks = 5;
+        Simil = -1000*ones(n_tracks);
+        for file = files'
+            M = csvread(strcat(subsubdirpath,'\',file.name));
+            y1 = M(2:3,2:end);
+            y2 = M(4:5,2:end);
+            diff = M(6,2);
+            idx_1 = M(7,2);
+            idx_2 = M(7,3);
+            max_idx = max(max_idx,max(idx_1,idx_2));
+            y1( :, ~any(y1,1) ) = [];  %columns
+            y1 = y1';
+            y2( :, ~any(y2,1) ) = [];  %columns
+            y2 = y2';
+            N1 = length(y1);
+            N2 = length(y2);
+            if mod(N2,2) == 1
+                y2 = y2(1:end-1,:);
+                N2 = length(y2);
+            end
+            if mod(N1,2) == 1
+                y1 = y1(2:end,:);
+                N1 = length(y1);
+            end
+            [Hanki,Hankj] = Hankel_i(y1,y2);
+            Sxi = svd(Hanki(:,:,1));
+            Syi = svd(Hanki(:,:,2));
+            Sxj = svd(Hankj(:,:,1));
+            Syj = svd(Hankj(:,:,2));
+            Hname = [subsubdirpath '\Hank_' num2str(idx_1) '_' num2str(idx_2) '.mat'];
+            Yname = [subsubdirpath'y_star_' num2str(idx_1) '_' num2str(idx_2) '.csv'];
+            try
+                load(Hname)
+            catch
+                [Hankij,y_star] = Hankel_ij(y1,y2,diff);
+                save(Hname, 'Hankij','y_star')
+                csvwrte(Yname,y_star)
+            end
+            Sxij = svd(Hankij(:,:,1));
+            Syij = svd(Hankij(:,:,2));
+            Simil_x = (sum(Sxi > sigma) + sum(Sxj > sigma))/(sum(Sxij > sigma)) - 0.99;
+            Simil_y = (sum(Syi > sigma) + sum(Syj > sigma))/(sum(Syij > sigma)) - 0.99;
+            Simil(idx_1+1,idx_2+1) = Simil_x + Simil_y;
+        end
+        csvwrite(['Pij_' num2str(sigma) '.csv'],Simil)
+
+    end
+end
