@@ -9,7 +9,7 @@ for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
         % Select a single testcase
-        if strcmp(thissubdir,'3_obj_obsolete')==1
+        if strcmp(thissubdir,'3_obj_less_noisy')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
@@ -21,7 +21,7 @@ for n = 1: numberOfFolders
         thissubsubdir = subsubdirs(m).name;
         
         % Select a single testcase
-        if strcmp(thissubsubdir,'csv_3_1')==1
+%         if strcmp(thissubsubdir,'csv_3_1')==1
         
         subsubdirpath = [subdirpath '\' thissubsubdir];  
         files = dir([subsubdirpath '\alpha*.csv']);
@@ -84,13 +84,13 @@ for n = 1: numberOfFolders
                 Simil = Simil + 0.01 - min((max(Simil)~=-1000).*max(Simil));
                 SimilT = SimilT + 0.01 - min((max(SimilT)~=-1000).*max(SimilT));
             end
-            csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
-            csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
+%             csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
+%             csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
             clear Simil SimilT
         catch
-            continue
+            disp(thissubsubdir)
         end
         end
     end
-        end
+%         end
 end
