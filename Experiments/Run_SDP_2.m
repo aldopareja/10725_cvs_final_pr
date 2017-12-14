@@ -9,7 +9,7 @@ for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
         % Select a single testcase
-        if strcmp(thissubdir,'5_obj')==1
+        if strcmp(thissubdir,'3_obj')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
@@ -88,7 +88,10 @@ for n = 1: numberOfFolders
 %             csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
             clear Simil SimilT
         catch
+            disp('Remember to include a trivial assignment constraint for')
             disp(thissubsubdir)
+            disp('in directory')
+            disp(thissubdir)
         end
         end
     end

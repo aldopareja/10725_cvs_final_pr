@@ -28133,3 +28133,594 @@ Solution count 1: 2.27
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.270000000000e+00, best bound 2.270000000000e+00, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.26791
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.26791 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.679100000000e-01, best bound 2.679100000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.17266 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.726600000000e-01, best bound 1.726600000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.090919
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.2174 0.090919 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.174000000000e-01, best bound 2.174000000000e-01, gap 0.0000%
+Optimize a model with 8 rows, 12 columns and 24 nonzeros
+Variable types: 0 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.1219
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.1219 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.219000000000e-01, best bound 1.219000000000e-01, gap 0.0000%
+Optimize a model with 9 rows, 18 columns and 36 nonzeros
+Variable types: 0 continuous, 18 integer (18 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.12793
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.12793 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.279300000000e-01, best bound 1.279300000000e-01, gap 0.0000%
+Optimize a model with 5 rows, 4 columns and 8 nonzeros
+Variable types: 0 continuous, 4 integer (4 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.061209
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.061209 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.120900000000e-02, best bound 6.120900000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.12773
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.12773 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.277300000000e-01, best bound 1.277300000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.0405 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.050000000000e-02, best bound 4.050000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.019774
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.019774 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.977400000000e-02, best bound 1.977400000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.17489 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.748900000000e-01, best bound 1.748900000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.12788
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.12788 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.278800000000e-01, best bound 1.278800000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.028182 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.818200000000e-02, best bound 2.818200000000e-02, gap 0.0000%
+Optimize a model with 6 rows, 5 columns and 10 nonzeros
+Variable types: 0 continuous, 5 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 6 rows and 5 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.020807 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.080700000000e-02, best bound 2.080700000000e-02, gap 0.0000%
+Optimize a model with 8 rows, 15 columns and 30 nonzeros
+Variable types: 0 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.22015
+Presolve removed 8 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.22015 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.201500000000e-01, best bound 2.201500000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.17022 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.702200000000e-01, best bound 1.702200000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.079108 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.910800000000e-02, best bound 7.910800000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.15887
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.15887 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.588700000000e-01, best bound 1.588700000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-03, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.072212
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.072212 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.221200000000e-02, best bound 7.221200000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.20165
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.20165 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.016500000000e-01, best bound 2.016500000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.012268
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.012268 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.226800000000e-02, best bound 1.226800000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e-03, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.023103
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.023103 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.310300000000e-02, best bound 2.310300000000e-02, gap 0.0000%
+Optimize a model with 11 rows, 28 columns and 56 nonzeros
+Variable types: 0 continuous, 28 integer (28 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.102565
+Presolve removed 11 rows and 28 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 0.17313 0.102565 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.731300000000e-01, best bound 1.731300000000e-01, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.059326
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.059326 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.932600000000e-02, best bound 5.932600000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.084345
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.084345 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.434500000000e-02, best bound 8.434500000000e-02, gap 0.0000%
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Variable types: 0 continuous, 10 integer (10 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-02, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 0.01
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0.01 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e-02, best bound 1.000000000000e-02, gap 0.0000%
