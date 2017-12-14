@@ -15,11 +15,16 @@ for n = 1: numberOfFolders
     numberOfSubFolders = length(subsubdirs);
     for m = 1: numberOfSubFolders
         thissubsubdir = subsubdirs(m).name;
+        
+        % Select a single testcase
+        if strcmp(thissubsubdir,'csv_3_11')==1
+        
         subsubdirpath = [subdirpath '\' thissubsubdir];  
         files = dir([subsubdirpath '\alpha*.csv']);
         max_idx = 0;
         for file = files'
-            M = csvread(strcat(subsubdirpath,'\',file.name));
+            filedir = strcat(subsubdirpath,'\',file.name);
+            M = csvread(filedir);
             y1 = M(2:3,2:end);
             y1_pos = M(4,2:3);
             y2 = M(5:6,2:end);
@@ -69,5 +74,6 @@ for n = 1: numberOfFolders
         SimilT(SimilT == 0) = -1000;
         csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
         csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
+        end
     end
 end
