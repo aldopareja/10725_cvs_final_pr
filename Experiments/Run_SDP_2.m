@@ -9,7 +9,7 @@ for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
         % Select a single testcase
-        if strcmp(thissubdir,'3_obj_less_noisy')==1
+        if strcmp(thissubdir,'5_obj')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
