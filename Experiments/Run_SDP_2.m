@@ -8,8 +8,8 @@ numberOfFolders = length(subdirs);
 for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
-        % Select a single testcase
-        if strcmp(thissubdir,'3_obj')==1
+%         % Select a single testcase
+%         if strcmp(thissubdir,'3_obj')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
@@ -89,11 +89,9 @@ for n = 1: numberOfFolders
             clear Simil SimilT
         catch
             disp('Remember to include a trivial assignment constraint for')
-            disp(thissubsubdir)
-            disp('in directory')
-            disp(thissubdir)
+            disp([thissubdir '/' thissubsubdir])
         end
         end
     end
 %         end
-end
+% end
