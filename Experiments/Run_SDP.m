@@ -1,5 +1,5 @@
 clear all
-sigma = 5;
+sigma = 2;
 subdirs = dir(pwd);
 subdirs(~[subdirs.isdir]) = [];
 tf = ismember( {subdirs.name}, {'.', '..'});
@@ -9,7 +9,7 @@ for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
         % Select a single testcase
-        if strcmp(thissubdir,'3_obj')==1
+%         if strcmp(thissubdir,'3_obj')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
@@ -21,7 +21,7 @@ for n = 1: numberOfFolders
         thissubsubdir = subsubdirs(m).name;
         
 %         % Select a single testcase
-%         if strcmp(thissubsubdir,'csv_3_5')==1
+%         if strcmp(thissubsubdir,'csv_3_10')==1
         
         subsubdirpath = [subdirpath '\' thissubsubdir];  
         files = dir([subsubdirpath '\alpha*.csv']);
@@ -74,11 +74,23 @@ for n = 1: numberOfFolders
             SimilT_y = (rank(Hanki(:,:,2)) + rank(Hankj(:,:,2)))/(rank(Hankij(:,:,2))) - 0.99;
             SimilT(idx_1+1,idx_2+1) = SimilT_x + SimilT_y;
         end
-        Simil(Simil == 0) = -1000;
-        SimilT(SimilT == 0) = -1000;
-        csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
-        csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
+        try
+            Simil(Simil == 0) = -1000;
+            SimilT(SimilT == 0) = -1000;
+            if size(Simil,1) == 1
+                Simil = Simil + 0.01 - min(Simil(Simil~=-1000));
+                SimilT = SimilT + 0.01 - min(SimilT(SimilT~=-1000));
+            else
+                Simil = Simil + 0.01 - min((max(Simil)~=-1000).*max(Simil));
+                SimilT = SimilT + 0.01 - min((max(SimilT)~=-1000).*max(SimilT));
+            end
+            csvwrite([subsubdirpath '\Pij_' num2str(sigma) '.csv'],Simil)
+            csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
+            clear Simil SimilT
+        catch
+            continue
+        end
         end
     end
 %         end
-end
+% end
