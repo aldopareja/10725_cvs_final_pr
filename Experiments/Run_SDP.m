@@ -7,6 +7,10 @@ subdirs(tf) = [];
 numberOfFolders = length(subdirs);
 for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
+    
+        % Select a single testcase
+        if strcmp(thissubdir,'3_obj')==1
+
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
     subsubdirs(~[subsubdirs.isdir]) = [];
@@ -16,8 +20,8 @@ for n = 1: numberOfFolders
     for m = 1: numberOfSubFolders
         thissubsubdir = subsubdirs(m).name;
         
-        % Select a single testcase
-        if strcmp(thissubsubdir,'csv_3_11')==1
+%         % Select a single testcase
+%         if strcmp(thissubsubdir,'csv_3_5')==1
         
         subsubdirpath = [subdirpath '\' thissubsubdir];  
         files = dir([subsubdirpath '\alpha*.csv']);
@@ -76,4 +80,5 @@ for n = 1: numberOfFolders
         csvwrite([subsubdirpath '\Tij_' num2str(sigma) '.csv'],SimilT)
         end
     end
+%         end
 end
