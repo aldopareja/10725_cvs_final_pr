@@ -8,8 +8,8 @@ numberOfFolders = length(subdirs);
 for n = 1: numberOfFolders
     thissubdir = subdirs(n).name;
     
-%         % Select a single testcase
-%         if strcmp(thissubdir,'3_obj')==1
+        % Select a single testcase
+        if strcmp(thissubdir,'3_obj')==1
 
     subdirpath = [pwd '\' thissubdir];   
     subsubdirs = dir(subdirpath);
@@ -94,4 +94,4 @@ for n = 1: numberOfFolders
         end
     end
 %         end
-% end
+end
